@@ -10,6 +10,6 @@ def count_multiples(numbers):
 
 
 n = input()
-numbers = list(map(int, n.split(",")))
+numbers = list(map(int, n.split(" ")))
 result = count_multiples(numbers)
 print(result)
